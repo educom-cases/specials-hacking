@@ -1,0 +1,6 @@
+schema_version = 1
+skill = "project-workflow"
+version = "1.0.0"
+agent = "codex"
+mode = "copy"
+repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

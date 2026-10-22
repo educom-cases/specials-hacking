@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rust Development"
+  short_description: "Build robust Rust crates with preferred tools"
+  default_prompt: "Use $rust to design, implement, and verify this Rust change with clear module boundaries, contextual errors, and the appropriate preferred Codeberg crates."

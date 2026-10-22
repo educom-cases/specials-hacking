@@ -1,0 +1,6 @@
+schema_version = 1
+skill = "react"
+version = "2.8.0"
+agent = "codex"
+mode = "copy"
+repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

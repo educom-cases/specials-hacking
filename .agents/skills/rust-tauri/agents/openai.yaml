@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rust and Tauri Contract"
+  short_description: "Build typed local-first Tauri backends"
+  default_prompt: "Use $rust-tauri to implement this desktop backend or Tauri boundary change with the required architecture, contracts, and verification."

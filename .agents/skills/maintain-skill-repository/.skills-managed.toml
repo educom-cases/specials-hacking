@@ -1,0 +1,6 @@
+schema_version = 1
+skill = "maintain-skill-repository"
+version = "1.5.0"
+agent = "codex"
+mode = "copy"
+repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atomic Resources Components"
+  short_description: "Build components with generated tokens and Sass utilities"
+  default_prompt: "Use $atomic-resources-components to implement this component change with create-atomic-resources tokens, Sass utilities, atomic-bomb structure, and required validation."

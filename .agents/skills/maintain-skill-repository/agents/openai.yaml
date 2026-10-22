@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Skills Repository"
+  short_description: "Maintain and validate this skill catalog"
+  default_prompt: "Use $maintain-skill-repository to safely update this skills repository, keep Codex metadata and Copilot agent profiles synchronized, and validate every affected contract."

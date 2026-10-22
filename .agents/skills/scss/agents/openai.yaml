@@ -1,0 +1,4 @@
+interface:
+  display_name: "SCSS Component Styles"
+  short_description: "Structure component SCSS and verify Sass barrels"
+  default_prompt: "Use $scss to structure this component stylesheet and verify its Sass barrel and responsive rules."

@@ -1,0 +1,655 @@
+schema_version = 1
+repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"
+managed_marker = ".skills-managed.toml"
+updated_at_unix = 1792660363
+agents = [
+    "claude",
+    "codex",
+    "copilot",
+]
+
+[[skills]]
+agent = "claude"
+name = "atomic-resources-components"
+version = "1.2.0"
+mode = "copy"
+destination = ".claude/skills/atomic-resources-components"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "39aca690e6563a712725b5a2020febd2bbfe02d951ca1c75540b7b3515eb4f76"
+
+[[skills]]
+agent = "claude"
+name = "configure-src-alias"
+version = "1.1.0"
+mode = "copy"
+destination = ".claude/skills/configure-src-alias"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f8ec84d81c140a94cef0ad72ba68924251940ada16fb4101da68b5458b6c2e3c"
+
+[[skills]]
+agent = "claude"
+name = "maintain-skill-repository"
+version = "1.5.0"
+mode = "copy"
+destination = ".claude/skills/maintain-skill-repository"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "93d9c2dea4bc548ac180d9665e94de0bba40fc3d6eb036fa4a7b8721530b54ac"
+
+[[skills.files]]
+path = "scripts/validate_repository.py"
+sha256 = "d386909784b93929cbdf658865a052e054ca9cbb15e738efac3c7a45fd154757"
+
+[[skills]]
+agent = "claude"
+name = "project-workflow"
+version = "1.0.0"
+mode = "copy"
+destination = ".claude/skills/project-workflow"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "9e63c1b992874329feafb32ec60751ff079c92951e089595c45f1c22794d38c6"
+
+[[skills]]
+agent = "claude"
+name = "react"
+version = "2.8.0"
+mode = "copy"
+destination = ".claude/skills/react"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f91b447b25aca616052ff79fdf48b3f6836f520f25f6ae57067c2fb48ec3e407"
+
+[[skills.files]]
+path = "references/architecture-and-components.md"
+sha256 = "b690c3bb8cdaf901fe46d2151dd9cdcb82e4966c7a5b8cf461b960ac8362a96a"
+
+[[skills.files]]
+path = "references/component-structure.md"
+sha256 = "bcb08681b16810d77e861b713202086d0d607e5708dabd638e7dac7d679aa3e4"
+
+[[skills.files]]
+path = "references/quality-and-definition-of-done.md"
+sha256 = "2926dec54c661aa93659e1ebb6e0e1171281ee6675deeb7fdd4f731c4d95d151"
+
+[[skills.files]]
+path = "references/workflow-and-generation.md"
+sha256 = "7cc5a557a9e0d7c7a55720d7d8fb2eb7c6903e1096c0981ee9d2bd325d8fa596"
+
+[[skills]]
+agent = "claude"
+name = "rust"
+version = "1.1.0"
+mode = "copy"
+destination = ".claude/skills/rust"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "a9f9dfa646fff1506f12f8f9df18e98384d97111fa2e76a030f73d5ea6a4c799"
+
+[[skills.files]]
+path = "references/architecture-and-errors.md"
+sha256 = "bb47f21dc9b99e2cd1192c0ceb65ba75e21642fff80960aba47515ac8dca7708"
+
+[[skills.files]]
+path = "references/preferred-codeberg-crates.md"
+sha256 = "f7ce72d6088bcbe47bbb8d29745859255c7e1e25502617fa0bfbe21998d7161a"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "3d8c1a64630aaa6f374413500f9b88973b6f1845428c74ef0e2184c99417debf"
+
+[[skills]]
+agent = "claude"
+name = "rust-tauri"
+version = "2.4.0"
+mode = "copy"
+destination = ".claude/skills/rust-tauri"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "351e752490ec01bf6808f82399b602bf90ca7935ad02e69644cf9951e06ea098"
+
+[[skills.files]]
+path = "references/configuration-and-structure.md"
+sha256 = "4d562be305bdb7653664ea2626fbfe72237f4ac246d1468e0a47125789a962ae"
+
+[[skills.files]]
+path = "references/persistence-and-commands.md"
+sha256 = "5749e992e16ca764b5b882e4e34d3e30f7236009df2eeb2a9981346125769271"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "83d1c9ce5bed17131d4091c8af40c742da1106252eaade579710f6f3ebf67673"
+
+[[skills]]
+agent = "claude"
+name = "scss"
+version = "1.1.0"
+mode = "copy"
+destination = ".claude/skills/scss"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "462c118a1f60fb967ef81e83406868e804499037cdaa7dbf351e7f77d29d6629"
+
+[[skills.files]]
+path = "references/component-partial-pattern.md"
+sha256 = "cdec918125ccc696d6720ea33a83d25524d25a98b4a2299828e293ab5d32ff57"
+
+[[skills]]
+agent = "claude"
+name = "tauri-design"
+version = "1.2.0"
+mode = "copy"
+destination = ".claude/skills/tauri-design"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "7cc99f16cafa85690d28dcaafd5612b594af85a1414c5f3735ed07122a5801ef"
+
+[[skills.files]]
+path = "assets/tokens.json"
+sha256 = "9135147eb1ea995cf734af5ccc6ef11010faae12610829f04b9198bc4d563818"
+
+[[skills.files]]
+path = "references/components-and-states.md"
+sha256 = "365e59b6d63df71f273084067ddfe61d48d2ed0c6c2db2c009e194c1703c4014"
+
+[[skills.files]]
+path = "references/design-tokens.md"
+sha256 = "c385e68b942685475bcdc8761d81ad8e31442a504d56285b76b86cb304185617"
+
+[[skills.files]]
+path = "references/implementation-and-verification.md"
+sha256 = "405eec15277952e1d951114ff8e1a04128b67495758832586c70f34264ac890b"
+
+[[skills.files]]
+path = "references/shell-and-layout.md"
+sha256 = "6183321d68c61cb44b46947f4e835cca1c2e1a76eca8869ee5b6d7fdf5da112c"
+
+[[skills.files]]
+path = "references/visual-language.md"
+sha256 = "22b2d1236b8b65ad0c14ada389b9ac811e14c4407bfb6c21fcd382c6b77b6653"
+
+[[skills.files]]
+path = "scripts/install_tokens.py"
+sha256 = "b7ca3c9729f5dd7f4297b0cfd68ce4404ca55d3a5e0e3e6b9dfeef067f957302"
+
+[[skills]]
+agent = "claude"
+name = "tauri-window-chrome"
+version = "1.1.0"
+mode = "copy"
+destination = ".claude/skills/tauri-window-chrome"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "762dc0e45a7362b524ec9559dc6be0d7963306c974984c0b2b6f3e2fb7874172"
+
+[[skills.files]]
+path = "references/frontend-shell-and-controls.md"
+sha256 = "eabf2375044d7585c9daa4d4111715881c65cd136169bf3ff7d27bcaad8ce390"
+
+[[skills.files]]
+path = "references/native-window-and-startup.md"
+sha256 = "299fbcbcd4451ae556c9490b0a9ccca0fe5b3d35adb2ce449b7e8f81dce449e2"
+
+[[skills.files]]
+path = "references/verification-and-troubleshooting.md"
+sha256 = "8655886a27a9715a72d929b6aa163e8c94394d5b4c9de7240ed393243e475cc7"
+
+[[skills.files]]
+path = "references/workspace-and-tokens.md"
+sha256 = "f037d1104a25cb0236942935e6fc44dd5b476412809f704abe5528d087b2820a"
+
+[[skills]]
+agent = "codex"
+name = "atomic-resources-components"
+version = "1.2.0"
+mode = "copy"
+destination = ".agents/skills/atomic-resources-components"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "39aca690e6563a712725b5a2020febd2bbfe02d951ca1c75540b7b3515eb4f76"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "eed77fb56a14ed1167ef9e291c4cd218d7cc13c7fb598e5b9bb9ec8de25db211"
+
+[[skills]]
+agent = "codex"
+name = "configure-src-alias"
+version = "1.1.0"
+mode = "copy"
+destination = ".agents/skills/configure-src-alias"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f8ec84d81c140a94cef0ad72ba68924251940ada16fb4101da68b5458b6c2e3c"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "b8e6ace3c11cdd3d795b66aa0bfcfe3a30c465cad7746aadc928c4dcb50c369e"
+
+[[skills]]
+agent = "codex"
+name = "maintain-skill-repository"
+version = "1.5.0"
+mode = "copy"
+destination = ".agents/skills/maintain-skill-repository"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "93d9c2dea4bc548ac180d9665e94de0bba40fc3d6eb036fa4a7b8721530b54ac"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "397978cd6bc8c2b85e43f5e4c6af3a4b00f381892e29ccc4615ce2ca28261cbd"
+
+[[skills.files]]
+path = "scripts/validate_repository.py"
+sha256 = "d386909784b93929cbdf658865a052e054ca9cbb15e738efac3c7a45fd154757"
+
+[[skills]]
+agent = "codex"
+name = "project-workflow"
+version = "1.0.0"
+mode = "copy"
+destination = ".agents/skills/project-workflow"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "9e63c1b992874329feafb32ec60751ff079c92951e089595c45f1c22794d38c6"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "7af46af3f4ed3b513018e028a279ee72b1fef35dcfaeb6ad64299ef2d182f37c"
+
+[[skills]]
+agent = "codex"
+name = "react"
+version = "2.8.0"
+mode = "copy"
+destination = ".agents/skills/react"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f91b447b25aca616052ff79fdf48b3f6836f520f25f6ae57067c2fb48ec3e407"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "04082246bec85cec0db574af3bec077ee305c60bdab9139ba4e482dc4a730b0b"
+
+[[skills.files]]
+path = "references/architecture-and-components.md"
+sha256 = "b690c3bb8cdaf901fe46d2151dd9cdcb82e4966c7a5b8cf461b960ac8362a96a"
+
+[[skills.files]]
+path = "references/component-structure.md"
+sha256 = "bcb08681b16810d77e861b713202086d0d607e5708dabd638e7dac7d679aa3e4"
+
+[[skills.files]]
+path = "references/quality-and-definition-of-done.md"
+sha256 = "2926dec54c661aa93659e1ebb6e0e1171281ee6675deeb7fdd4f731c4d95d151"
+
+[[skills.files]]
+path = "references/workflow-and-generation.md"
+sha256 = "7cc5a557a9e0d7c7a55720d7d8fb2eb7c6903e1096c0981ee9d2bd325d8fa596"
+
+[[skills]]
+agent = "codex"
+name = "rust"
+version = "1.1.0"
+mode = "copy"
+destination = ".agents/skills/rust"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "a9f9dfa646fff1506f12f8f9df18e98384d97111fa2e76a030f73d5ea6a4c799"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "e0cb83e3d3c06e646181dccc0ea461b7c9e86081bf87c44cc98a7698fad6a3c4"
+
+[[skills.files]]
+path = "references/architecture-and-errors.md"
+sha256 = "bb47f21dc9b99e2cd1192c0ceb65ba75e21642fff80960aba47515ac8dca7708"
+
+[[skills.files]]
+path = "references/preferred-codeberg-crates.md"
+sha256 = "f7ce72d6088bcbe47bbb8d29745859255c7e1e25502617fa0bfbe21998d7161a"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "3d8c1a64630aaa6f374413500f9b88973b6f1845428c74ef0e2184c99417debf"
+
+[[skills]]
+agent = "codex"
+name = "rust-tauri"
+version = "2.4.0"
+mode = "copy"
+destination = ".agents/skills/rust-tauri"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "351e752490ec01bf6808f82399b602bf90ca7935ad02e69644cf9951e06ea098"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "d3e6dc680512292bd2376f10192dea24a665932ad83e8068f0526f46c2deb987"
+
+[[skills.files]]
+path = "references/configuration-and-structure.md"
+sha256 = "4d562be305bdb7653664ea2626fbfe72237f4ac246d1468e0a47125789a962ae"
+
+[[skills.files]]
+path = "references/persistence-and-commands.md"
+sha256 = "5749e992e16ca764b5b882e4e34d3e30f7236009df2eeb2a9981346125769271"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "83d1c9ce5bed17131d4091c8af40c742da1106252eaade579710f6f3ebf67673"
+
+[[skills]]
+agent = "codex"
+name = "scss"
+version = "1.1.0"
+mode = "copy"
+destination = ".agents/skills/scss"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "462c118a1f60fb967ef81e83406868e804499037cdaa7dbf351e7f77d29d6629"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "da7a6c8ee2f3069e9278db144a543bd2de1f870cef96161b3423006ed526542b"
+
+[[skills.files]]
+path = "references/component-partial-pattern.md"
+sha256 = "cdec918125ccc696d6720ea33a83d25524d25a98b4a2299828e293ab5d32ff57"
+
+[[skills]]
+agent = "codex"
+name = "tauri-design"
+version = "1.2.0"
+mode = "copy"
+destination = ".agents/skills/tauri-design"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "7cc99f16cafa85690d28dcaafd5612b594af85a1414c5f3735ed07122a5801ef"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "4a1e000d3a31a98ba321ce31e90465cb0f8541dbdae7e5e66520a9e1688c7830"
+
+[[skills.files]]
+path = "assets/tokens.json"
+sha256 = "9135147eb1ea995cf734af5ccc6ef11010faae12610829f04b9198bc4d563818"
+
+[[skills.files]]
+path = "references/components-and-states.md"
+sha256 = "365e59b6d63df71f273084067ddfe61d48d2ed0c6c2db2c009e194c1703c4014"
+
+[[skills.files]]
+path = "references/design-tokens.md"
+sha256 = "c385e68b942685475bcdc8761d81ad8e31442a504d56285b76b86cb304185617"
+
+[[skills.files]]
+path = "references/implementation-and-verification.md"
+sha256 = "405eec15277952e1d951114ff8e1a04128b67495758832586c70f34264ac890b"
+
+[[skills.files]]
+path = "references/shell-and-layout.md"
+sha256 = "6183321d68c61cb44b46947f4e835cca1c2e1a76eca8869ee5b6d7fdf5da112c"
+
+[[skills.files]]
+path = "references/visual-language.md"
+sha256 = "22b2d1236b8b65ad0c14ada389b9ac811e14c4407bfb6c21fcd382c6b77b6653"
+
+[[skills.files]]
+path = "scripts/install_tokens.py"
+sha256 = "b7ca3c9729f5dd7f4297b0cfd68ce4404ca55d3a5e0e3e6b9dfeef067f957302"
+
+[[skills]]
+agent = "codex"
+name = "tauri-window-chrome"
+version = "1.1.0"
+mode = "copy"
+destination = ".agents/skills/tauri-window-chrome"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "762dc0e45a7362b524ec9559dc6be0d7963306c974984c0b2b6f3e2fb7874172"
+
+[[skills.files]]
+path = "agents/openai.yaml"
+sha256 = "5c7d901b6ae128a5b0de6fd498548ca359f31cd839a7559301e3a3c697aa3d1f"
+
+[[skills.files]]
+path = "references/frontend-shell-and-controls.md"
+sha256 = "eabf2375044d7585c9daa4d4111715881c65cd136169bf3ff7d27bcaad8ce390"
+
+[[skills.files]]
+path = "references/native-window-and-startup.md"
+sha256 = "299fbcbcd4451ae556c9490b0a9ccca0fe5b3d35adb2ce449b7e8f81dce449e2"
+
+[[skills.files]]
+path = "references/verification-and-troubleshooting.md"
+sha256 = "8655886a27a9715a72d929b6aa163e8c94394d5b4c9de7240ed393243e475cc7"
+
+[[skills.files]]
+path = "references/workspace-and-tokens.md"
+sha256 = "f037d1104a25cb0236942935e6fc44dd5b476412809f704abe5528d087b2820a"
+
+[[skills]]
+agent = "copilot"
+name = "atomic-resources-components"
+version = "1.2.0"
+mode = "copy"
+destination = ".github/skills/atomic-resources-components"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "39aca690e6563a712725b5a2020febd2bbfe02d951ca1c75540b7b3515eb4f76"
+
+[[skills]]
+agent = "copilot"
+name = "configure-src-alias"
+version = "1.1.0"
+mode = "copy"
+destination = ".github/skills/configure-src-alias"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f8ec84d81c140a94cef0ad72ba68924251940ada16fb4101da68b5458b6c2e3c"
+
+[[skills]]
+agent = "copilot"
+name = "maintain-skill-repository"
+version = "1.5.0"
+mode = "copy"
+destination = ".github/skills/maintain-skill-repository"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "93d9c2dea4bc548ac180d9665e94de0bba40fc3d6eb036fa4a7b8721530b54ac"
+
+[[skills.files]]
+path = "scripts/validate_repository.py"
+sha256 = "d386909784b93929cbdf658865a052e054ca9cbb15e738efac3c7a45fd154757"
+
+[[skills]]
+agent = "copilot"
+name = "project-workflow"
+version = "1.0.0"
+mode = "copy"
+destination = ".github/skills/project-workflow"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "9e63c1b992874329feafb32ec60751ff079c92951e089595c45f1c22794d38c6"
+
+[[skills]]
+agent = "copilot"
+name = "react"
+version = "2.8.0"
+mode = "copy"
+destination = ".github/skills/react"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "f91b447b25aca616052ff79fdf48b3f6836f520f25f6ae57067c2fb48ec3e407"
+
+[[skills.files]]
+path = "references/architecture-and-components.md"
+sha256 = "b690c3bb8cdaf901fe46d2151dd9cdcb82e4966c7a5b8cf461b960ac8362a96a"
+
+[[skills.files]]
+path = "references/component-structure.md"
+sha256 = "bcb08681b16810d77e861b713202086d0d607e5708dabd638e7dac7d679aa3e4"
+
+[[skills.files]]
+path = "references/quality-and-definition-of-done.md"
+sha256 = "2926dec54c661aa93659e1ebb6e0e1171281ee6675deeb7fdd4f731c4d95d151"
+
+[[skills.files]]
+path = "references/workflow-and-generation.md"
+sha256 = "7cc5a557a9e0d7c7a55720d7d8fb2eb7c6903e1096c0981ee9d2bd325d8fa596"
+
+[[skills]]
+agent = "copilot"
+name = "rust"
+version = "1.1.0"
+mode = "copy"
+destination = ".github/skills/rust"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "a9f9dfa646fff1506f12f8f9df18e98384d97111fa2e76a030f73d5ea6a4c799"
+
+[[skills.files]]
+path = "references/architecture-and-errors.md"
+sha256 = "bb47f21dc9b99e2cd1192c0ceb65ba75e21642fff80960aba47515ac8dca7708"
+
+[[skills.files]]
+path = "references/preferred-codeberg-crates.md"
+sha256 = "f7ce72d6088bcbe47bbb8d29745859255c7e1e25502617fa0bfbe21998d7161a"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "3d8c1a64630aaa6f374413500f9b88973b6f1845428c74ef0e2184c99417debf"
+
+[[skills]]
+agent = "copilot"
+name = "rust-tauri"
+version = "2.4.0"
+mode = "copy"
+destination = ".github/skills/rust-tauri"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "351e752490ec01bf6808f82399b602bf90ca7935ad02e69644cf9951e06ea098"
+
+[[skills.files]]
+path = "references/configuration-and-structure.md"
+sha256 = "4d562be305bdb7653664ea2626fbfe72237f4ac246d1468e0a47125789a962ae"
+
+[[skills.files]]
+path = "references/persistence-and-commands.md"
+sha256 = "5749e992e16ca764b5b882e4e34d3e30f7236009df2eeb2a9981346125769271"
+
+[[skills.files]]
+path = "references/verification.md"
+sha256 = "83d1c9ce5bed17131d4091c8af40c742da1106252eaade579710f6f3ebf67673"
+
+[[skills]]
+agent = "copilot"
+name = "scss"
+version = "1.1.0"
+mode = "copy"
+destination = ".github/skills/scss"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "462c118a1f60fb967ef81e83406868e804499037cdaa7dbf351e7f77d29d6629"
+
+[[skills.files]]
+path = "references/component-partial-pattern.md"
+sha256 = "cdec918125ccc696d6720ea33a83d25524d25a98b4a2299828e293ab5d32ff57"
+
+[[skills]]
+agent = "copilot"
+name = "tauri-design"
+version = "1.2.0"
+mode = "copy"
+destination = ".github/skills/tauri-design"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "7cc99f16cafa85690d28dcaafd5612b594af85a1414c5f3735ed07122a5801ef"
+
+[[skills.files]]
+path = "assets/tokens.json"
+sha256 = "9135147eb1ea995cf734af5ccc6ef11010faae12610829f04b9198bc4d563818"
+
+[[skills.files]]
+path = "references/components-and-states.md"
+sha256 = "365e59b6d63df71f273084067ddfe61d48d2ed0c6c2db2c009e194c1703c4014"
+
+[[skills.files]]
+path = "references/design-tokens.md"
+sha256 = "c385e68b942685475bcdc8761d81ad8e31442a504d56285b76b86cb304185617"
+
+[[skills.files]]
+path = "references/implementation-and-verification.md"
+sha256 = "405eec15277952e1d951114ff8e1a04128b67495758832586c70f34264ac890b"
+
+[[skills.files]]
+path = "references/shell-and-layout.md"
+sha256 = "6183321d68c61cb44b46947f4e835cca1c2e1a76eca8869ee5b6d7fdf5da112c"
+
+[[skills.files]]
+path = "references/visual-language.md"
+sha256 = "22b2d1236b8b65ad0c14ada389b9ac811e14c4407bfb6c21fcd382c6b77b6653"
+
+[[skills.files]]
+path = "scripts/install_tokens.py"
+sha256 = "b7ca3c9729f5dd7f4297b0cfd68ce4404ca55d3a5e0e3e6b9dfeef067f957302"
+
+[[skills]]
+agent = "copilot"
+name = "tauri-window-chrome"
+version = "1.1.0"
+mode = "copy"
+destination = ".github/skills/tauri-window-chrome"
+
+[[skills.files]]
+path = "SKILL.md"
+sha256 = "762dc0e45a7362b524ec9559dc6be0d7963306c974984c0b2b6f3e2fb7874172"
+
+[[skills.files]]
+path = "references/frontend-shell-and-controls.md"
+sha256 = "eabf2375044d7585c9daa4d4111715881c65cd136169bf3ff7d27bcaad8ce390"
+
+[[skills.files]]
+path = "references/native-window-and-startup.md"
+sha256 = "299fbcbcd4451ae556c9490b0a9ccca0fe5b3d35adb2ce449b7e8f81dce449e2"
+
+[[skills.files]]
+path = "references/verification-and-troubleshooting.md"
+sha256 = "8655886a27a9715a72d929b6aa163e8c94394d5b4c9de7240ed393243e475cc7"
+
+[[skills.files]]
+path = "references/workspace-and-tokens.md"
+sha256 = "f037d1104a25cb0236942935e6fc44dd5b476412809f704abe5528d087b2820a"

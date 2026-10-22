@@ -1,0 +1,16 @@
+[package]
+name = "bad-usb"
+version = "0.1.0"
+edition = "2024"
+description = "A consent-based USB security awareness demonstration"
+license = "MIT"
+
+[workspace]
+members = ["firmware"]
+default-members = ["."]
+resolver = "3"
+
+[dependencies]
+anyhow = "1.0"
+serialport = { version = "4.7", default-features = false }
+

@@ -1,0 +1,24 @@
+[package]
+name = "bad-usb-firmware"
+version = "0.1.0"
+edition = "2024"
+description = "ESP32-S3 USB HID awareness demonstration firmware"
+license = "MIT"
+
+[features]
+default = ["windows-demo"]
+windows-demo = []
+macos-demo = []
+
+[dependencies]
+embassy-executor = "0.10"
+embassy-futures = "0.1"
+embassy-time = "0.5"
+embassy-usb = { version = "0.6", features = ["usbd-hid"] }
+esp-backtrace = { version = "0.17", features = ["esp32s3", "panic-handler", "println"] }
+esp-hal = { git = "https://github.com/esp-rs/esp-hal.git", rev = "eb8b6098991db685e2a442bac0a0b6d6c29bb116", package = "esp-hal", features = ["esp32s3", "unstable", "__usb_otg"] }
+esp-println = { version = "0.15", default-features = false, features = ["esp32s3", "uart"] }
+esp-bootloader-esp-idf = { git = "https://github.com/esp-rs/esp-hal.git", rev = "eb8b6098991db685e2a442bac0a0b6d6c29bb116", features = ["esp32s3"] }
+esp-rtos = { git = "https://github.com/esp-rs/esp-hal.git", rev = "eb8b6098991db685e2a442bac0a0b6d6c29bb116", features = ["embassy", "esp32s3"] }
+static_cell = "2.1"
+usbd-hid = "0.10"
