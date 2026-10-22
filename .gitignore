@@ -1,2 +1,6 @@
 /bad-usb/target/
 /zero-click
+/.github/skills/
+/.claude/
+/.agents/
+.skills.lock.toml
