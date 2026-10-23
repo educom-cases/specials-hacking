@@ -1,5 +1,5 @@
 /bad-usb/target/
-/zero-click
+/zero-click/node_modules/
 /.github/skills/
 /.claude/
 /.agents/

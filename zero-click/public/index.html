@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111827">
+    <title>Zero-click preview demo</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Zero-click demo home">
+          <span class="brand-mark" aria-hidden="true">Z</span>
+          <span>Security lab <span class="brand-divider">/</span> Zero-click</span>
+        </a>
+        <span id="connection-status" class="connection-status" data-state="connecting">
+          Connecting
+        </span>
+      </header>
+
+      <section class="intro">
+        <p class="eyebrow">LOCAL TRAINING SIMULATION</p>
+        <h1>When a preview runs by itself</h1>
+        <p class="intro-copy">
+          A message arrives. The receiver automatically processes its attachment
+          to make a preview, before anyone opens it. That automatic step is the
+          idea behind this harmless zero-click demonstration.
+        </p>
+        <div class="safety-note">
+          <span class="safety-icon" aria-hidden="true">i</span>
+          <p><strong>Simulation only.</strong> The fixtures are plain text. No image decoder,
+            exploit, command execution, or file access is involved.</p>
+        </div>
+      </section>
+
+      <nav class="role-nav" aria-label="Demo role">
+        <a id="receiver-link" href="/">Receiver</a>
+        <a id="sender-link" href="/?role=sender">Sender</a>
+        <span class="role-hint">Use two tabs to see the WebSocket delivery.</span>
+      </nav>
+
+      <section id="sender-panel" class="panel" hidden>
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">SENDER VIEW</p>
+            <h2>Send a training fixture</h2>
+          </div>
+          <span class="step-number">01</span>
+        </div>
+        <p class="panel-copy">Choose what the receiver should get. The server sends the fixture to connected receiver tabs.</p>
+        <div class="button-row">
+          <button id="send-ordinary" class="button button-secondary" type="button">
+            Send ordinary fixture
+          </button>
+          <button id="send-trigger" class="button button-alert" type="button">
+            Send simulated trigger
+          </button>
+        </div>
+        <p id="sender-feedback" class="feedback" aria-live="polite">Waiting for connection…</p>
+      </section>
+
+      <section id="receiver-panel" class="receiver-layout" hidden>
+        <div class="panel receiver-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">RECEIVER VIEW</p>
+              <h2>Incoming message</h2>
+            </div>
+            <span class="step-number">02</span>
+          </div>
+
+          <div id="empty-state" class="empty-state">
+            <span class="empty-icon" aria-hidden="true">↓</span>
+            <strong>No fixture received yet</strong>
+            <span>Send one from the sender tab.</span>
+          </div>
+
+          <article id="message-card" class="message-card" hidden>
+            <div class="message-meta">
+              <span class="file-icon" aria-hidden="true">IMG</span>
+              <div>
+                <strong id="message-name">Training fixture</strong>
+                <span id="message-time">Just now</span>
+              </div>
+            </div>
+            <div id="preview-box" class="preview-box" data-state="idle" aria-live="polite">
+              <span class="preview-symbol" aria-hidden="true">▧</span>
+              <span id="preview-status">Waiting for a fixture</span>
+            </div>
+          </article>
+
+          <label class="toggle-row">
+            <input id="patched-mode" type="checkbox">
+            <span class="toggle-ui" aria-hidden="true"></span>
+            <span class="toggle-copy">
+              <strong>Patched preview mode</strong>
+              <small>Reject the demo marker before preview processing.</small>
+            </span>
+          </label>
+        </div>
+
+        <aside class="panel log-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">EVENT TRACE</p>
+              <h2>What happened</h2>
+            </div>
+            <span class="live-dot" aria-label="Live"></span>
+          </div>
+          <ol id="activity-log" class="activity-log" aria-live="polite">
+            <li class="log-empty">Waiting for an incoming fixture.</li>
+          </ol>
+        </aside>
+      </section>
+
+      <footer class="footer-note">
+        <span>For an isolated classroom demo on this computer.</span>
+        <span>Server binds to 127.0.0.1 only.</span>
+      </footer>
+    </main>
+  </body>
+</html>

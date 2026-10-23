@@ -1,0 +1,3 @@
+TRAINING_IMAGE_V1
+marker=SIMULATE_PARSER_WARNING
+content=This text marker only triggers a harmless classroom alert.
