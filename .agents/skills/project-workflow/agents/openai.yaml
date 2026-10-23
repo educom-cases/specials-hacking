@@ -1,4 +1,0 @@
-interface:
-  display_name: "Project Workflow"
-  short_description: "Apply the shared development workflow"
-  default_prompt: "Use $project-workflow for this task, load every applicable skill, and follow the repository's issue and review conventions."

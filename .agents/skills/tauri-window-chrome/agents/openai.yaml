@@ -1,4 +1,0 @@
-interface:
-  display_name: "Tauri v2 Window Chrome"
-  short_description: "Build reliable Tauri custom window chrome"
-  default_prompt: "Use $tauri-window-chrome to implement and verify reliable custom chrome, controls, dragging, and startup visibility for this Tauri v2 application."

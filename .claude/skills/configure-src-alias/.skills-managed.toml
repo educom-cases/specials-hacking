@@ -1,6 +1,0 @@
-schema_version = 1
-skill = "configure-src-alias"
-version = "1.1.0"
-agent = "claude"
-mode = "copy"
-repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

@@ -1,6 +1,0 @@
-schema_version = 1
-skill = "atomic-resources-components"
-version = "1.2.0"
-agent = "copilot"
-mode = "copy"
-repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

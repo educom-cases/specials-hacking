@@ -1,4 +1,0 @@
-interface:
-  display_name: "React Development Contract"
-  short_description: "Build React frontends under a strict contract"
-  default_prompt: "Use $react to implement this frontend change with the required architecture, Vite source alias, generation workflow, tests, and validation."

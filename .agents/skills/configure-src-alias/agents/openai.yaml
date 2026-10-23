@@ -1,4 +1,0 @@
-interface:
-  display_name: "Configure @ Source Alias"
-  short_description: "Wire the @ alias through TypeScript and Vite"
-  default_prompt: "Use $configure-src-alias to configure the exact @ source alias in TypeScript and Vite and verify both resolution paths."

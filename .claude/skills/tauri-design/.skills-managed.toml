@@ -1,6 +1,0 @@
-schema_version = 1
-skill = "tauri-design"
-version = "1.2.0"
-agent = "claude"
-mode = "copy"
-repository = "/Users/rene/Library/Caches/skillx/repositories/krewinkel-skills"

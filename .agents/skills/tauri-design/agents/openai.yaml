@@ -1,4 +1,0 @@
-interface:
-  display_name: "Tauri Workbench Design"
-  short_description: "Design Tauri apps with mandatory tokens"
-  default_prompt: "Use $tauri-design to install the mandatory Tauri React tokens and design this interface with the Pastebook-derived workbench system, responsive panes, custom chrome, and interaction states."
